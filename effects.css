@@ -1,0 +1,10 @@
+:root{
+    --primary-color: rgb(83, 94, 241);
+}
+.navigation{
+    background-color: var(--primary-color);
+}
+.navigation .inline{
+    display: inline;
+    margin: 3rem;
+}
