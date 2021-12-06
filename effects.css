@@ -10,7 +10,7 @@ body{
 }
 .navigation{
     background-color: var(--primary-color);
-    color: white;
+    color: var(--text-color);
     margin: 0rem;
     display: block;
     padding: 0.5rem;
@@ -52,12 +52,10 @@ img{
     display: block;
 }
 .navigation .inline .link{
-    color: wheat;
+    
     text-decoration: none;
 }
-.navigation h2{
-    color: wheat;
-}
+
 .tech,footer{
     display: block;
     text-align: center;
