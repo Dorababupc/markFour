@@ -3,8 +3,25 @@
 }
 .navigation{
     background-color: var(--primary-color);
+    margin: 0rem;
+    display: block;
 }
-.navigation .inline{
+.inline{
     display: inline;
     margin: 3rem;
+    
+    color: tomato;
+}
+.right{
+    text-align: right;
+}
+.no{
+    color: yellow;
+}
+.navigation .inline .link{
+    color: wheat;
+    text-decoration: none;
+}
+.navigation h2{
+    color: wheat;
 }
