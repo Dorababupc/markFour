@@ -83,13 +83,16 @@ head , footer{
 
 footer {
     background-color: var(--primary-color);
-    padding: 2rem 1rem;
+    padding: 2rem 2rem;
     text-align: center;
     color: white;
     border-top-right-radius: 1rem;
 }
 
-
+.mid{
+    display: block;
+    text-align: center;
+}
 .color{
     color: var(--text-color);
 }
