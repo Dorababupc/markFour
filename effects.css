@@ -15,11 +15,22 @@ body{
 header{
     
     display: block;
+    padding-top: 5rem;
+    padding: 2rem;
 }
 img{
     max-width: 85%;
     margin: auto;
     display: block;
+}
+.person_name{
+    text-align: center;
+    padding: 2rem;
+    padding-top: 1rem;
+    color: grey;
+}
+.profile{
+    color: var(--primary-color);
 }
 .inline{
     display: inline;
