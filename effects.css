@@ -1,5 +1,6 @@
 :root{
     --primary-color: rgb(83, 94, 241);
+    --text-color:white;
     --first-box:rgb(248, 236, 236);
     --sec-box:rgb(71, 67, 67);
 }
@@ -9,6 +10,7 @@ body{
 }
 .navigation{
     background-color: var(--primary-color);
+    color: white;
     margin: 0rem;
     display: block;
     padding: 0.5rem;
@@ -33,11 +35,12 @@ img{
 }
 .profile{
     color: var(--primary-color);
+    
 }
 .inline{
     display: inline;
-    margin: 2rem;
-    color: tomato;
+    margin: 1rem;
+    
     
 }
  .navigation .right{
@@ -55,26 +58,42 @@ img{
 .navigation h2{
     color: wheat;
 }
-.tech{
+.tech,footer{
     display: block;
     text-align: center;
     
     padding: 2rem;
     margin: 2rem;
+    border-radius: 1rem;
 }
 .first, .third{
     background-color: var(--first-box);
+    
 }
 
-head{
+head , footer{
     max-width: 85%;
     text-align: center;
     margin: auto;
+}
+.active-link{
+    font-weight: bold;
 }
 .linker{
     padding: 0.75rem;
     border-radius: 1rem;
     text-decoration: none;
     background-color: var(--primary-color);
+    color: var(--text-color);
     margin: 5rem;
+}
+.links{
+    text-decoration: none;
+}
+footer{
+    background-color: var(--primary-color);
+    color: var(--text-color);
+}
+.color{
+    color: var(--text-color);
 }
