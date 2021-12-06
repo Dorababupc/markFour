@@ -12,9 +12,12 @@ body{
     background-color: var(--primary-color);
     color: var(--text-color);
     margin: 0rem;
-    display: block;
     padding: 0.5rem;
     border-bottom-left-radius: 1rem;
+}
+.right{
+    text-align: right;
+    
 }
 header{
     
@@ -39,13 +42,18 @@ img{
 }
 .inline{
     display: inline;
-    margin: 1rem;
-    
-    
+    margin: 1rem;   
 }
- .navigation .right{
-    text-align: right;
-    
+section{
+    padding: 2rem;
+    margin: 2rem 0rem;
+    border-radius: 1rem;
+}
+.clr{
+    background-color: var(--first-box);
+}
+p{
+    text-align: center;
 }
 .no{
     
@@ -92,9 +100,4 @@ footer{
 }
 h1{
     text-align: center;
-}
-section{
-    padding: 2rem;
-    margin: 2rem 0rem;
-    border-radius: 1rem;
 }
