@@ -56,20 +56,12 @@ p{
     text-align: center;
 }
 .no{
-    
-    display: block;
+    text-align: center;
 }
-.navigation .inline .link{
+.link{
     
     text-decoration: none;
 }
-
-
-.first, .third{
-    background-color: red;
-    
-}
-
 head , footer{
     max-width: 85%;
     margin: auto;
@@ -88,10 +80,16 @@ head , footer{
 .links{
     text-decoration: none;
 }
-footer{
+
+footer {
     background-color: var(--primary-color);
-    color: var(--text-color);
+    padding: 2rem 1rem;
+    text-align: center;
+    color: white;
+    border-top-right-radius: 1rem;
 }
+
+
 .color{
     color: var(--text-color);
 }
