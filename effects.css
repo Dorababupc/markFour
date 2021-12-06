@@ -70,12 +70,13 @@ head , footer{
     font-weight: bold;
 }
 .linker{
-    padding: 0.75rem;
+    padding: 0.5rem;
     border-radius: 1rem;
-    text-decoration: none;
     background-color: var(--primary-color);
     color: var(--text-color);
-    margin: 5rem;
+    margin: 2rem auto;
+    max-width: 100px;
+   
 }
 .links{
     text-decoration: none;
